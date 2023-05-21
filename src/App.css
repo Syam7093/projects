@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.tableDiv{
+  justify-content: center;
+}
+.tableContentDiv{
+  display: flex;
+  justify-content: center;
+  height: 420px;
+  overflow: auto;
+}
+.home{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+ 
+thead{
+  height: 40px;
+  position:  sticky;
+  top : 0px;
+  background-color: rgb(127, 227, 149);
+  width: 100%;
+  color : black
+}
+tfoot{
+  height: 40px;
+  position: sticky;
+  bottom: 0px;
+  background-color: rgb(190, 228, 96);
+  width: 100%;
+  color :  black
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table{
+  margin: '0px';
+  width : 80%;
+  height: 400px;
+}
+td{
+  width: 20%;
+  height: 100px;
+  overflow: auto;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input{
+  width : 400px;
+  height: 40px;
+  border-radius: 8px;
+  margin:  10px;
+}
+button{
+  width:  100px;
+  height: 25px;
+  margin  : 10px;
+}
